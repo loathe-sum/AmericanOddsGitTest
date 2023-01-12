@@ -6,17 +6,17 @@ function calcBet(a,b) {
     let c = b / 100;
     let plusOdds = c * a;
     let plusOddsFinal = parseFloat(plusOdds).toFixed(2);
-    document.getElementById('betResults').innerHTML = ('To Win: $' + plusOddsFinal);
+    document.getElementById('betResult').innerHTML = ('To Win: $' + plusOddsFinal);
   } 
   else if (b < 0) {
     let c = b * -1;
     let minusOddsFlip = 100 / c;
     let minusOddsInt = minusOddsFlip * a;
     let minusOddsFinal = parseFloat(minusOddsInt).toFixed(2);
-    document.getElementById('betResults').innerHTML = ('To Win: $' + minusOddsFinal);
+    document.getElementById('betResult').innerHTML = ('To Win: $' + minusOddsFinal);
   }
   else {
-    document.getElementById('betResults').innerHTML = ('Plug in numbers dumbass');
+    document.getElementById('betResult').innerHTML = ('Plug in numbers dumbass');
   }
 }
 
