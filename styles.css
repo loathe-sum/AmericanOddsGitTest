@@ -31,7 +31,7 @@ input {
   text-align: center;
 }
 
-#fuckMe {
+#calculate {
   width: 51%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -44,14 +44,14 @@ input {
   margin-bottom: 50px;
 }
 
-#fuckMe:hover {
+#calculate:hover {
   background-color: fuchsia;
   color: white;
   border-color: lightgreen;
 }
 
 /* on click animation testing */
-#fuckMe:active {
+#calculate:active {
   transition-duration: 1s;
   transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
   transform: translateY(1.25px), background-color font-weight;
