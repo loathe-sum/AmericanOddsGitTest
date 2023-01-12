@@ -1,4 +1,3 @@
-// calcBet function = Calculate odds from two inputs(betAmt,betOdds) and output winnings
 function calcBet(a,b) {
   var a = parseInt(document.getElementById('betAmt').value);
   var b = parseInt(document.getElementById('betOdds').value);
