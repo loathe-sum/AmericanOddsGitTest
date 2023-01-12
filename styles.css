@@ -73,11 +73,11 @@ input {
   width: 50%;
 }
 
-#chokeMe {
+#betResult {
   font-size: larger;
 }
 
-#chokeMeBox {
+#betResultBox {
   width: 50%;
   margin: auto;
   background-color: white;
@@ -91,7 +91,7 @@ input {
   
 }
 
-#chokeMeBox:hover {
+#betResultBox:hover {
   background-color: fuchsia;
   color: white;
   border-color: lightgreen;

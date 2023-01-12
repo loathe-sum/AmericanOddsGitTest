@@ -1,3 +1,4 @@
+// calcBet function = Calculate odds from two inputs(betAmt,betOdds) and output winnings
 function calcBet(a,b) {
   var a = parseInt(document.getElementById('betAmt').value);
   var b = parseInt(document.getElementById('betOdds').value);
@@ -5,17 +6,17 @@ function calcBet(a,b) {
     let c = b / 100;
     let plusOdds = c * a;
     let plusOddsFinal = parseFloat(plusOdds).toFixed(2);
-    document.getElementById('chokeMe').innerHTML = ('To Win: $' + plusOddsFinal);
+    document.getElementById('betResults').innerHTML = ('To Win: $' + plusOddsFinal);
   } 
   else if (b < 0) {
     let c = b * -1;
     let minusOddsFlip = 100 / c;
     let minusOddsInt = minusOddsFlip * a;
     let minusOddsFinal = parseFloat(minusOddsInt).toFixed(2);
-    document.getElementById('chokeMe').innerHTML = ('To Win: $' + minusOddsFinal);
+    document.getElementById('betResults').innerHTML = ('To Win: $' + minusOddsFinal);
   }
   else {
-    document.getElementById('chokeMe').innerHTML = ('Plug in numbers dumbass');
+    document.getElementById('betResults').innerHTML = ('Plug in numbers dumbass');
   }
 }
 
