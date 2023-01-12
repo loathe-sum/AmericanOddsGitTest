@@ -20,7 +20,7 @@ function calcBet(a,b) {
 }
 
 // code below = how much you win 
-calculator.addEventListener("click", calcBet);
+myCheckbox.addEventListener("click", calcBet);
 
 
 // need function to take form inputs and perform math
